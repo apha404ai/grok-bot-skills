@@ -23,6 +23,12 @@ Every trade idea runs through them top to bottom. Any `BLOCKED` stops the trade.
 2. Add it to your Grok Bot as a skill, or paste all 10 into its instructions.
 3. Keep the order above. Cheap filters (time, news, trend) run first, sizing and risk-gate run last, right before the order.
 
+## Build your own
+
+Every skill here follows one shape: READ, CHECK, APPLY RULE, DRAFT, then you.
+Copy [4-step-template/SKILL.md](4-step-template/SKILL.md), fill in the brackets, send it to your Grok Bot.
+Not sure a task should go to a bot? Run the [5 checks](4-step-template/CHECKLIST.md) first.
+
 ## Defaults
 
 2x reward to risk, 1% risk per trade, spread 0.05%, 15 minutes around red news, funding 0.03% per 8h, 4h trend on the 50 EMA, liquid hours 07:00-20:00 UTC. Change them to fit your market.
