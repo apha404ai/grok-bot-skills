@@ -17,6 +17,11 @@ Every trade idea runs through them top to bottom. Any `BLOCKED` stops the trade.
 | 9 | [journal](journal/SKILL.md) | Logs every trade, blocked ones too |
 | 10 | [post-mortem](post-mortem/SKILL.md) | Turns every loss into a new rule |
 
+## Liquidation Hunter pack
+
+6 more Grok Bots that hunt liquidation cascades: scout, heatmap, oi-watch, funding, risk, executor.
+Open [liquidation-hunter](liquidation-hunter/README.md). The best open-source repos to run next to it are in [RESOURCES.md](liquidation-hunter/RESOURCES.md).
+
 ## How to use
 
 1. Open a skill, copy its `SKILL.md`.
